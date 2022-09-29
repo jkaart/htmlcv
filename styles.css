@@ -1,27 +1,63 @@
-body{
-    background-color: silver;
+body {
+    
+    background-image: url("img/background.jpg");
+}
+nav li {
+    display: inline;
+    font-size: x-large;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 #paaotsikko {
-    background-color: gold;
+    background-color:rgb(201, 201, 201);
     text-align: center;
     border: 2px solid;
     border-radius: 5px;
 }
-.valiotsikko{
+.valiotsikko {
     margin : 20px auto;
     width: 30%;
     padding: 20px;
     text-align: center;
-    border-style: ridge;
+    background-color: aliceblue;
 }
 .center {
     margin: auto;
-    width: 50%;
+    width: 40%;
     padding: 10px;
+    background-color: azure;
+}
+.center, .valiotsikko {
     border: 2px solid;
     border-radius: 5px;
+    box-shadow: 10px 10px;
 }
-footer{
+ul {
+    padding-left: 40px;
+}
+footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    margin: 40px 0 0 0;
+    font-family: cursive;
+    background-color: ghostwhite;
 }
