@@ -57,6 +57,28 @@ nav ul li {
 ul {
     padding-left: 40px;
 }
+.center #tyokokemus-id ul {
+    list-style: none;
+}
+.center #tyokokemus-id li {
+    position: relative;
+}
+.center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
+    font-size: 1.5em;
+}
+.center #tyokokemus-id .virkanimike, .aika, .tyotehtava,  #koulutus-id .koulutus, .vuosi, .tutkinto{
+    font-size: 1em;
+    margin-left: 25%;
+}
+.center #koulutus-id ul {
+    list-style: none;
+}
+.center #koulutus-id li {
+    position: relative;
+}
+.center #ttaidot-id li h3 {
+    list-style: none;
+}
 
 footer {
     text-align: center;
