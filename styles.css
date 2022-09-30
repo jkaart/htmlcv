@@ -64,10 +64,10 @@ ul {
     position: relative;
 }
 .center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .center #tyokokemus-id .virkanimike, .aika, .tyotehtava,  #koulutus-id .koulutus, .vuosi, .tutkinto{
-    font-size: 1em;
+    font-size: 0.8em;
     margin-left: 25%;
 }
 .center #koulutus-id ul {
