@@ -3,9 +3,15 @@ body {
     
     background-image: url("img/background.jpg");
 }
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
 nav li {
     display: inline;
-    font-size: x-large;
+    font-size: xx-large;
     
 }
 nav ul {
@@ -49,32 +55,35 @@ nav ul li {
     padding: 10px;
     background-color: rgb(240, 255, 255, 0.6);
 }
+
+.center hr.jako-viiva {
+    border-top: 8px solid;
+    margin: 0px 10% 20px 10%;
+    position: relative;
+    border-radius: 5px;
+    color: rgb(86, 186, 156);
+}
 .center, .valiotsikko {
     border: 2px solid;
     border-radius: 5px;
     box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
 }
-ul {
-    padding-left: 40px;
-}
-.center #tyokokemus-id ul {
+.center #tyokokemus-id ul, #koulutus-id ul {
     list-style: none;
+    margin: 10px 0px 40px 0px;
 }
-.center #tyokokemus-id li {
+.center #tyokokemus-id li, #koulutus-id li {
     position: relative;
 }
 .center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
 }
 .center #tyokokemus-id .virkanimike, .aika, .tyotehtava,  #koulutus-id .koulutus, .vuosi, .tutkinto{
-    font-size: 0.8em;
-    margin-left: 25%;
-}
-.center #koulutus-id ul {
-    list-style: none;
-}
-.center #koulutus-id li {
-    position: relative;
+    font-size: 1em;
+    margin-left: 50px;
+    list-style-type: disc;
 }
 .center #ttaidot-id .aliotsikko {
     list-style: none;
@@ -83,7 +92,6 @@ ul {
     position: relative;
     margin: 0;
 }
-
 footer {
     text-align: center;
     padding: 5px;
