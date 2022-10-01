@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Passions+Conflict&display=swap');
+/*html*/
 html {
-    scroll-padding-top: 50px;
+    scroll-padding-top: 105px;
 }
 /*Body*/
 body { 
     background-image: url("img/background.jpg");
-
     padding-top: 100px;
+    margin-bottom: 120px;
 }
-
 /*Navigointi palkki*/
 nav {
     position: fixed;
@@ -17,11 +17,12 @@ nav {
     right: 0;
     width: 100%;
     z-index: 9999;
+    justify-content: space-evenly;
+    background-color: rgb(51, 51, 51);
 }
-nav li {
-    display: inline;
-    font-size: xx-large;
-    
+nav h1 {
+    text-align: center;
+    color:rgb(255, 255, 255);
 }
 nav ul {
     margin: 0;
@@ -40,36 +41,39 @@ nav li a:hover {
     background-color: rgb(17, 17, 17);
 }
 nav ul li {
+    display: inline;
+    font-size: x-large;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 /*Otsikoiden tyylit*/
-#paaotsikko {
-    background-color:rgb(201, 201, 201);
-    text-align: center;
-    border: 2px solid;
-    border-radius: 5px;
-    margin: 0 30% 0 30%;
-}
 .valiotsikko {
-    margin : 20px auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
     padding: 15px;
     text-align: center;
     background-color: rgb(240, 248, 255, 0.6);
-
-    scroll-snap-align: start;
-  scroll-snap-stop: normal;
-    scroll-padding-top: 50px;
     overflow: hidden;
 }
 /*Sisällön keskitys*/
 .center {
-    margin: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
-    padding: 10px;
+    padding: 20px;
     background-color: rgb(240, 255, 255, 0.6);
+}
+/*Väliotsikon ja sisällön varjo*/
+.valiotsikko, .center {
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
 }
 /*Sisältö*/
 .center hr.jako-viiva {
@@ -77,11 +81,6 @@ nav ul li {
     margin: 0px 10% 20px 10%;
     position: relative;
     color: rgb(86, 186, 156);
-}
-.center, .valiotsikko {
-    border: 2px solid;
-    border-radius: 5px;
-    box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
 }
 .center #tyokokemus-id ul, #koulutus-id ul {
     list-style: none;
@@ -93,7 +92,7 @@ nav ul li {
 .center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
 }
 .center #tyokokemus-id .virkanimike, .aika, .tyotehtava,  #koulutus-id .koulutus, .vuosi, .tutkinto{
     font-size: 1em;
@@ -107,14 +106,22 @@ nav ul li {
     position: relative;
     margin: 0;
 }
+section {
+    margin-bottom: 100px;
+}
 /*Footer*/
 footer {
     text-align: center;
-    padding: 5px;
-    margin: 40px 0 0 0;
     font-family: "Passions Conflict";
     font-size: 30px;
     background-color: rgb(248, 248, 255, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    justify-content: space-evenly;
 }
 footer a:link {
     text-decoration: none;
