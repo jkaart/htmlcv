@@ -102,6 +102,10 @@ nav ul li {
     position: relative;
     margin: 0;
 }
+.center #ttaidot-id img {
+    width: auto;
+    height: 20px;
+}
 /*Section*/
 section {
     margin-bottom: 100px;
