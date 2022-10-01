@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Passions+Conflict&display=swap');
 /*html*/
 html {
     scroll-padding-top: 105px;
@@ -18,7 +17,7 @@ nav {
     width: 100%;
     z-index: 9999;
     justify-content: space-evenly;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(130, 141, 133);
 }
 nav h1 {
     text-align: center;
@@ -28,7 +27,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(51, 51, 51);
     text-align: center;
 }
 nav li a {
@@ -112,9 +110,9 @@ section {
 /*Footer*/
 footer {
     text-align: center;
-    font-family: "Passions Conflict";
+    font-family: "Indie Flower";
     font-size: 30px;
-    background-color: rgb(248, 248, 255, 0.8);
+    background-color: rgb(130, 141, 133);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -126,7 +124,7 @@ footer {
 footer a:link {
     text-decoration: none;
 }
-.bgrattr {
+footer p {
     font-size: 26px;
     margin-bottom: auto;
     margin-top: auto;
