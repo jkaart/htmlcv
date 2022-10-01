@@ -66,6 +66,7 @@ nav ul li {
     width: 60%;
     padding: 20px;
     background-color: rgb(240, 255, 255, 0.6);
+    font-family: "DM Mono";
 }
 /*Väliotsikon ja sisällön varjo*/
 .valiotsikko, .center {
@@ -84,9 +85,6 @@ nav ul li {
     list-style: none;
     margin: 10px 0px 40px 0px;
 }
-.center #tyokokemus-id li, #koulutus-id li {
-    position: relative;
-}
 .center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
     font-size: 1.2em;
     font-weight: bold;
@@ -104,14 +102,16 @@ nav ul li {
     position: relative;
     margin: 0;
 }
+/*Section*/
 section {
     margin-bottom: 100px;
+    font-family: "DM Mono";
 }
 /*Footer*/
 footer {
     text-align: center;
     font-family: "Indie Flower";
-    font-size: 30px;
+    font-size: 1.2em;
     background-color: rgb(130, 141, 133);
     position: fixed;
     bottom: 0;
@@ -125,7 +125,15 @@ footer a:link {
     text-decoration: none;
 }
 footer p {
-    font-size: 26px;
+    font-size: 0.8em;
     margin-bottom: auto;
     margin-top: auto;
+}
+footer #yhteystiedot {
+    float: left;
+    text-align: left;
+    font-size: 0.8em;
+}
+footer #yhteystiedot ul{
+    list-style-type: none;
 }
