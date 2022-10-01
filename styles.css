@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Passions+Conflict&display=swap');
-body {
-    
+/*Body*/
+body { 
     background-image: url("img/background.jpg");
 }
+/*Navigointi palkki*/
 nav {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     z-index: 9999;
 }
@@ -36,6 +38,7 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+/*Otsikoiden tyylit*/
 #paaotsikko {
     background-color:rgb(201, 201, 201);
     text-align: center;
@@ -50,13 +53,14 @@ nav ul li {
     text-align: center;
     background-color: rgb(240, 248, 255, 0.6);
 }
+/*Sisällön keskitys*/
 .center {
     margin: auto;
     width: 60%;
     padding: 10px;
     background-color: rgb(240, 255, 255, 0.6);
 }
-
+/*Sisältö*/
 .center hr.jako-viiva {
     border-top: 8px solid;
     margin: 0px 10% 20px 10%;
@@ -93,6 +97,7 @@ nav ul li {
     position: relative;
     margin: 0;
 }
+/*Footer*/
 footer {
     text-align: center;
     padding: 5px;
