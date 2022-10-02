@@ -68,41 +68,41 @@ nav ul li {
     background-color: rgb(240, 255, 255, 0.6);
     font-family: "DM Mono";
 }
-/*Väliotsikon ja sisällön varjo*/
+/*Väliotsikon ja sisällön varjo ja reunat*/
 .valiotsikko, .center {
     border: 2px solid;
     border-radius: 5px;
     box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
 }
 /*Sisältö*/
-.center hr.jako-viiva {
+hr.jako-viiva {
     border-top: 2px solid;
     margin: 0px 10% 20px 10%;
     position: relative;
     color: rgb(86, 186, 156);
 }
-.center #tyokokemus-id ul, #koulutus-id ul {
+#tyokokemus-id ul, #koulutus-id ul {
     list-style: none;
     margin: 10px 0px 40px 0px;
 }
-.center #tyokokemus-id .tyopaikka, #koulutus-id .koulu {
+.tyopaikka, .koulu {
     font-size: 1.2em;
     font-weight: bold;
     margin: 10px 0px 10px 0px;
 }
-.center #tyokokemus-id .virkanimike, .aika, .tyotehtava,  #koulutus-id .koulutus, .vuosi, .tutkinto{
+.virkanimike, .aika, .tyotehtava, .koulutus, .vuosi, .tutkinto{
     font-size: 1em;
     margin-left: 50px;
     list-style-type: disc;
 }
-.center #ttaidot-id .aliotsikko {
+.aliotsikko {
     list-style: none;
     font-size: 1.5em;
     font-weight: bold;
     position: relative;
     margin: 0;
 }
-.center #ttaidot-id img {
+#ttaidot-id img {
     width: auto;
     height: 20px;
 }
