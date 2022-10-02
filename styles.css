@@ -73,7 +73,7 @@ nav ul li {
     background-color: rgb(240, 255, 255, 0.6);
     font-family: "DM Mono";
 }
-/*Väliotsikon ja sisällön varjo ja reunat*/
+/*Väliotsikon ja keskityksen varjo ja reunat*/
 .valiotsikko, .center {
     border: 2px solid;
     border-radius: 5px;
@@ -86,14 +86,14 @@ hr.jako-viiva {
     position: relative;
     color: rgb(86, 186, 156);
 }
-.sisalto ul {
+.sisalto1 ul, .sisalto2 ul {
     list-style: none;
     margin-top: 10px;
     margin-bottom: 40px;
     margin-left: 5%;
     margin-right: 5%;
 }
-.tyopaikka, .koulu {
+.sisalto1 li:nth-child(1){
     font-size: 1.2em;
     font-weight: bold;
     margin: 10px 0px 10px 0px;
@@ -110,7 +110,7 @@ hr.jako-viiva {
     position: relative;
     margin: 0;
 }
-#ttaidot-id img {
+.tahdet img {
     width: auto;
     height: 20px;
 }
