@@ -64,14 +64,11 @@ nav ul li {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    /*
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    */
     background-color: rgb(240, 255, 255, 0.6);
-    font-family: "DM Mono";
 }
 /*Väliotsikon ja keskityksen varjo ja reunat*/
 .valiotsikko, .center {
@@ -86,33 +83,32 @@ hr.jako-viiva {
     position: relative;
     color: rgb(86, 186, 156);
 }
-.sisalto1 ul, .sisalto2 ul {
+.sisalto1 li:nth-child(1) {
     list-style: none;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.sisalto1 li:nth-child(1){
     font-size: 1.2em;
     font-weight: bold;
-    margin: 10px 0px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-.virkanimike, .aika, .tyotehtava, .koulutus, .vuosi, .tutkinto{
+.sisalto1 li:nth-child(n+2) {
     font-size: 1em;
     margin-left: 50px;
-    list-style-type: disc;
 }
-.aliotsikko {
-    list-style: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    position: relative;
-    margin: 0;
-}
+
 .tahdet img {
+    float: right;
+    position: relative;
     width: auto;
     height: 20px;
+    margin-right: 250px;
+}
+.sisalto2 li {
+    list-style: none;
+}
+.sisalto1 li:nth-child(n+2),.sisalto2 ul ul li {
+    list-style-type: disc;
 }
 /*Section*/
 section {
