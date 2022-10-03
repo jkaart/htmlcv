@@ -64,10 +64,10 @@ nav ul li {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(240, 255, 255, 0.6);
 }
 /*Väliotsikon ja keskityksen varjo ja reunat*/
@@ -75,6 +75,10 @@ nav ul li {
     border: 2px solid;
     border-radius: 5px;
     box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
+}
+/*Esittelyn tyylit*/
+#esittely {
+    margin: 50px;
 }
 /*Sisältö*/
 hr.jako-viiva {
@@ -96,7 +100,6 @@ hr.jako-viiva {
     font-size: 1em;
     margin-left: 50px;
 }
-
 .tahdet img {
     float: right;
     position: relative;
@@ -140,7 +143,7 @@ footer p {
 footer #yhteystiedot {
     float: left;
     text-align: left;
-    font-size: 0.8em;    
+    font-size: 0.6em;    
 }
 footer #yhteystiedot ul li, #some-linkit ul li {
     display: inline;
@@ -159,7 +162,7 @@ footer #some-linkit ul{
 footer #some-linkit {
     float: right;
     text-align: right;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 footer #some-linkit img {
     width: 32px;
