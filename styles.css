@@ -153,10 +153,12 @@ footer #yhteystiedot img {
 }
 footer #some-linkit ul{
     margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 footer #some-linkit {
     float: right;
-    text-align: left;
+    text-align: right;
     font-size: 0.8em;
 }
 footer #some-linkit img {
