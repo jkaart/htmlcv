@@ -141,6 +141,17 @@ footer #yhteystiedot {
     float: left;
     text-align: left;
     font-size: 0.8em;
+    
+}
+footer #yhteystiedot ul li {
+    display: inline;
+    
+    position: relative;
+}
+footer #yhteystiedot img {
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
 }
 footer #yhteystiedot ul{
     list-style-type: none;
