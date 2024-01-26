@@ -118,6 +118,18 @@ section {
     margin-bottom: 100px;
     font-family: "DM Mono";
 }
+/*Projektit*/
+#projektit img {
+    max-width: 30%;
+    height: auto;
+}
+#projektit ul {
+    padding: 0;
+    list-style-type: none;
+}
+.projektikuvat li {
+    display: inline;
+}
 /*Footer*/
 footer {
     text-align: center;
