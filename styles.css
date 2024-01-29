@@ -21,7 +21,7 @@ nav {
 }
 nav h1 {
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 nav ul {
     margin: 0;
@@ -30,13 +30,13 @@ nav ul {
     text-align: center;
 }
 nav li a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 nav li a:hover {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255);
 }
 nav ul li {
     display: inline;
