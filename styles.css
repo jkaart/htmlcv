@@ -2,13 +2,15 @@
 html {
     scroll-padding-top: 105px;
 }
+
 /*Body*/
-body { 
+body {
     background-image: url("img/background.jpg");
     background-size: cover;
     padding-top: 100px;
     margin-bottom: 120px;
 }
+
 /*Navigointi palkki*/
 nav {
     position: fixed;
@@ -20,25 +22,30 @@ nav {
     justify-content: space-evenly;
     background-color: rgb(130, 141, 133);
 }
+
 nav h1 {
     text-align: center;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
+
 nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-align: center;
 }
+
 nav li a {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+
 nav li a:hover {
     background-color: rgb(255, 255, 255);
 }
+
 nav ul li {
     display: inline;
     font-size: x-large;
@@ -46,6 +53,7 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+
 /*Otsikoiden tyylit*/
 .valiotsikko {
     margin-top: 20px;
@@ -58,6 +66,7 @@ nav ul li {
     background-color: rgb(240, 248, 255, 0.6);
     overflow: hidden;
 }
+
 /*Sisällön keskitys*/
 .center {
     margin-top: 20px;
@@ -71,28 +80,36 @@ nav ul li {
     padding-right: 30px;
     background-color: rgb(240, 255, 255, 0.6);
 }
+
 /*Väliotsikon ja keskityksen varjo ja reunat*/
-.valiotsikko, .center {
+.valiotsikko,
+.center {
     border: 2px solid;
     border-radius: 5px;
     box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
 }
+
 /*Esittelyn tyylit*/
 #esittely {
     display: flex;
 }
-#esittely-teksti, #esittely-kuva {
+
+#esittely-teksti,
+#esittely-kuva {
     display: inline-block;
 }
+
 #esittely-teksti {
     margin-left: 100px;
     margin-right: 50px;
 }
+
 #esittely-kuva img {
     border-radius: 15px;
     width: 160px;
     height: auto;
 }
+
 /*Sisältö*/
 hr.jako-viiva {
     border-top: 2px solid;
@@ -100,6 +117,7 @@ hr.jako-viiva {
     position: relative;
     color: rgb(86, 186, 156);
 }
+
 .sisalto1 li:nth-child(1) {
     list-style: none;
     font-size: 1.2em;
@@ -109,10 +127,12 @@ hr.jako-viiva {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 .sisalto1 li:nth-child(n+2) {
     font-size: 1em;
     margin-left: 50px;
 }
+
 .tahdet img {
     float: right;
     position: relative;
@@ -120,10 +140,13 @@ hr.jako-viiva {
     height: 20px;
     margin-right: 250px;
 }
+
 .sisalto2 li {
     list-style: none;
 }
-.sisalto1 li:nth-child(n+2),.sisalto2 ul ul li {
+
+.sisalto1 li:nth-child(n+2),
+.sisalto2 ul ul li {
     list-style-type: disc;
     margin-left: 40px;
 }
@@ -135,37 +158,43 @@ hr.jako-viiva {
 
 .sisalto2 ul li {
     padding: 0;
-    
+
 }
 
 .sisalto2 {
     padding-left: 100px;
 }
+
 .sisalto1 {
     padding-left: 60px;
 }
+
 /*Section*/
 section {
     margin-bottom: 100px;
     font-family: "DM Mono";
 }
+
 /*Projektit*/
 #projektit img {
     max-width: 30%;
     height: auto;
 }
+
 #projektit ul {
     padding: 0;
     list-style-type: none;
 }
+
 .projektikuvat li {
     display: inline;
 }
+
 /*Footer*/
 footer {
     text-align: center;
-    font-family: "Indie Flower";
-    font-size: 1.2em;
+
+    font-size: 0.8em;
     background-color: rgb(130, 141, 133);
     position: fixed;
     bottom: 0;
@@ -175,39 +204,50 @@ footer {
     z-index: 9999;
     justify-content: space-evenly;
 }
+
 footer a:link {
     text-decoration: none;
 }
+
 footer p {
-    font-size: 0.6em;
+    font-family: "Indie Flower";
+    text-align: center;
+    font-size: 0.8em;
     margin-bottom: auto;
     margin-top: auto;
 }
+
 footer #yhteystiedot {
     float: left;
     text-align: left;
-    font-size: 0.6em;    
+    font-size: 0.6em;
 }
-footer #yhteystiedot ul li, #some-linkit ul li {
+
+footer #yhteystiedot ul li,
+#some-linkit ul li {
     display: inline;
     list-style-type: none;
 }
+
 footer #yhteystiedot img {
     border: 2px solid;
     border-color: black;
     border-radius: 5px;
 }
-footer #some-linkit ul{
-    margin-right: 40px;
+
+footer #some-linkit ul {
+    margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 footer #some-linkit {
     float: right;
     text-align: right;
     font-size: 0.6em;
 }
+
 footer #some-linkit img {
     width: 32px;
-    padding: 16px;
+    padding: 4px;
 }
