@@ -5,6 +5,7 @@ html {
 /*Body*/
 body { 
     background-image: url("img/background.jpg");
+    background-size: cover;
     padding-top: 100px;
     margin-bottom: 120px;
 }
