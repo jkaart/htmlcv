@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fi" data-bs-theme="light">
+<html lang="fi" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -7,27 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <title>CV - Jani Kaartinen</title>
 </head>
 
-<body>
-
-    <div class="container-fluid">
-        <div class="row p-2">
-            <div class="col-sm-4">
-                <div class="border rounded">
-                    <img class="mx-auto d-block mb-2 border mt-2" src="img/Oma_kuva_small.png" alt="Oma kuva" />
+<body class="bg-body">
+    <div id="alkuruutu" class="vh-100">
+        <div class="d-flex align-items-center justify-content-center vh-100">
+            <ul class="list-unstyled text-center">
+                <li>
+                    <h1 class="fw-bold">Tervetuloa!</h1>
+                </li>
+                <li>
+                    <h2>Jani Kaartisen</h2>
+                </li>
+                <li>
+                    <h2>CV/ansioluettelo sivuille</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-fluid vh-100">
+        <div id="sisalto" class="row p-2">
+            <div class="col-md-4">
+                <div class="border rounded bg-light bg-opacity-10">
+                    <img class="mx-auto d-block mb-2 border mt-2 img-thumbnail border rounded"
+                        src="img/Oma_kuva_small.png" alt="Oma kuva" />
                     <hr />
-                    <ul>
+                    <ul class="list-unstyled ms-2 me-2">
                         <li>Nimi: Jani Kaartinen</li>
                         <li>Ikä: 38 vuotta</li>
                         <li>Paikkakunta: Mikkeli, Etelä-Savo</li>
-                        <li>Sähköposti: jkaart@gmail.com</li>
-                        <li>Kotisivu: </li>
+                        <li>Sähköposti: <a href="mailto:jkaart@gmail.com" target="_blank">jkaart@gmail.com</a></li>
+                        <li>Kotisivu: <a href="http://cv.jkaart.xyz" target="_blank">cv.jkaart.xyz</a></li>
+                    </ul>
+                    <hr />
+                    <ul class="list-unstyled list-inline some ms-2 me-2">
+                        <li class="list-inline-item"><a class="link-light" href="https://www.linkedin.com/in/jkaart"
+                                target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light" href="https://github.com/jkaart"
+                                target="_blank"><i class="bi bi-github"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light" href="https://x.com/jkaart1"
+                                target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light"
+                                href="https://discordapp.com/users/534873936878501919" target="_blank"><i
+                                    class="bi bi-discord"></i></a></li>
+                        <li class="list-inline-item"><a class="link-light" href="https://steamcommunity.com/id/jkaart/"
+                                target="_blank"><i class="bi bi-steam"></i></a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <div class="accordion" id="accordionSisalto">
                     <!-- Esittely -->
                     <div class="accordion-item">
@@ -44,18 +75,22 @@
                                     hetkellä
                                     olen
                                     opiskelemassa ohelmistokehittäjäksi Esedussa. Kokemusta on
-                                    elektroniikkalaitteiden ja tietokoneiden huollosta sekä korjaamisesta harrastuksen
+                                    elektroniikkalaitteiden ja tietokoneiden huollosta sekä korjaamisesta
+                                    harrastuksen
                                     ja
                                     kuntouttavantyötoiminnan kautta. Harrastan elektroniikkaa, tietokoneita ja
                                     lenkkeilen
                                     säännöllisesti.
-                                    Kokemusta on myöskin 3D-tulostuksesta ja sen myötä tutuksi on tullut myös Autodesk
+                                    Kokemusta on myöskin 3D-tulostuksesta ja sen myötä tutuksi on tullut myös
+                                    Autodesk
                                     Fusion
                                     360.
-                                    Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia. Olen opetellut myös
+                                    Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia. Olen opetellut
+                                    myös
                                     ohjelmointia
                                     Python,
-                                    Javascript (Node.js: Express ja Node.js: React) kielillä Digimuuntamo koulutuksessa
+                                    Javascript (Node.js: Express ja Node.js: React) kielillä Digimuuntamo
+                                    koulutuksessa
                                     ja
                                     harrastuksena
                                     Arduinolla (C/C++) joitain projekteja. Digimuuntamossa tuli myös etätyöskentely
@@ -156,7 +191,8 @@
                                     <li class="ps-3">Tietokoneasentajan ammattitutkinto</li>
                                 </ul>
                                 <ul class="list-unstyled">
-                                    <li class="fw-bold">Hengitysliitto Heli ry/Kaprakan ammatillinen koulutuskeskus</li>
+                                    <li class="fw-bold">Hengitysliitto Heli ry/Kaprakan ammatillinen koulutuskeskus
+                                    </li>
                                     <li class="ps-3">Elektroniikka-asentaja</li>
                                     <li class="ps-3">2007</li>
                                     <li class="ps-3">Sähköalan perustutkinto</li>
@@ -181,81 +217,190 @@
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Autodesk Fusion 360</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Microsoft Office</td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
+                                        <!-- <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td> -->
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">LibreOffice</td>
-                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">KiCAD EDA</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Visual Studio Code</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Linux Terminal</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Git (ja GitHub)</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="fw-bold">Ohjelmistot</td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Linux Ubuntu MATE</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Microsoft Windows 10 Pro</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="fw-bold">Ohjelmointi/koodaus</td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">HTML/CSS</td>
-                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Node.js: Express</td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Node.js: Rect</td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Swagger</td>
-                                        <td><img src="img/3of5stars.png" alt="3 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">MongoDB</td>
-                                        <td><img src="img/3of5stars.png" alt="4 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">InfluxDB </td>
-                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Arduino (C/C++)</td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">Python </td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-sm-3">WordPress (Elementor) </td>
-                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
@@ -277,19 +422,37 @@
                                         <td>Suomi</td>
                                     </tr>
                                     <tr>
-                                        <td class="ps-4">Äidinkieli</td>
-                                        <td><img src="img/5of5stars.png" alt="5 tähteä viidestä" /></td>
+                                        <td class="ps-4 pe-2">Äidinkieli</td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>Englanti</td>
                                     </tr>
                                     <tr>
                                         <td class="ps-4">Suullinen</td>
-                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td class="ps-4">Kirjallinen</td>
-                                        <td><img src="img/3of5stars.png" alt="3 tähteä viidestä" /></td>
+                                        <td class="tahdet">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
@@ -315,23 +478,166 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingSeven">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                Projektit
-                            </button>
-                        </h2>
-                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                            data-bs-parent="#accordionSisalto">
-                            <div class="accordion-body">
+                </div>
+            </div>
+        </div>
+        <hr class="mt-2 mb-2" />
+        <div class="bg-light bg-opacity-10 pb-3 ps-2 pe-2 border rounded">
 
+            <h2 id="sisalto" class="pb-5 pt-1">Ohjelmointi projektit/portfolio</h2>
+            <ul class="nav nav-tabs">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">HTML-CSS-Bootstrap</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link" id="turbomursu-tab" data-bs-toggle="tab" data-bs-target="#turbomursu"
+                                type="link" role="tab" aria-controls="turbomursu" aria-selected="false">Turbomursu / Fat
+                                Walrus Racing</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Python</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link" id="hirsipuu-tab" data-bs-toggle="tab" data-bs-target="#hirsipuu"
+                                type="link" role="tab" aria-controls="hirsipuu" aria-selected="false">Hirsipuu-peli</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Node.JS</a>
+                    <ul class="dropdown-menu">
+                        <button class="nav-link" id="ipSovellus-tab" data-bs-toggle="tab" data-bs-target="#ipSovellus"
+                            type="button" role="tab" aria-controls="ipSovellus" aria-selected="false">IP-osoitteiden
+                            varaus sovellus</button>
+                    </ul>
+                </li>
+            </ul>
+            <div class="tab-content mb-4 mt-2" id="projektitTabContent">
+                <!-- HTML-CSS -->
+                <div class="tab-pane fade" id="turbomursu" role="tabpanel" aria-labelledby="turbomursu-tab">
+                    <h3>Fat Walrus Racing</h3>
+                    <p>Koulun harjoitustyönä toteutettu racing henkinen web sivusto. Sivusto on toteutettu HTML:lla
+                        ja
+                        Bootstrapilla.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><a href="http://racing.turbomursu.com/index.html">Turbomursu</a> -kotisivut</li>
+                        <li><a href="https://github.com/jkaart/turboMursuRacing">GitHub</a></li>
+                    </ul>
+                    <div class="container pt-2">
+                        <div id="carouselTurbomursuIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselTurbomursuIndicators"
+                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselTurbomursuIndicators"
+                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselTurbomursuIndicators"
+                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/projects/turbomursu/turbomursu_sivu.jpg" target="_blank">
+                                        <img src="img/projects/turbomursu/turbomursu_sivu.jpg" class="img-fluid"
+                                            alt="Turbomursu sivu">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="img/projects/turbomursu/turbomursu_koodi-1.jpg" target="_blank">
+                                        <img src="img/projects/turbomursu/turbomursu_koodi-1.jpg" class="d-block w-100"
+                                            alt="Turbomursu koodi 1"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="img/projects/turbomursu/turbomursu_koodi-2.jpg" target="_blank">
+                                        <img src="img/projects/turbomursu/turbomursu_koodi-2.jpg" class="d-block w-100"
+                                            alt="Turbomursu koodi 2"></a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselTurbomursuIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselTurbomursuIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Python -->
+                <div class="tab-pane fade show active" id="hirsipuu" role="tabpanel" aria-labelledby="hirsipuu-tab">
+
+                </div>
+                <!-- Node.JS -->
+                <div class="tab-pane fade" id="ipSovellus" role="tabpanel" aria-labelledby="ipSovellus-tab">
+                    <h3>IP-osoitteiden varaus sovellus</h3>
+                    <p>Koulun harjoitustyönä toteutettu IP-osoitteiden varaus Node.js -sovellus. Sovelluksen
+                        frontend on
+                        toteutettu Node.js: React:lla ja backend Node.js: Express:lla. Itse olin backendiä
+                        tekemässä.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/jkaart/ip-reservationapp-backend">GitHub</a> -backend
+                        </li>
+                        <li><a href="https://github.com/jkaart/ip-reservationapp-frontend">GitHub</a> -frontend
+                        </li>
+                    </ul>
+                    <div class="container pt-2">
+                        <div id="carouselIpSovellusIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselIpSovellusIndicators"
+                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselIpSovellusIndicators"
+                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselIpSovellusIndicators"
+                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="img/projects/ipreservation/ip-reservation.jpg" target="_blank">
+                                        <img src="img/projects/ipreservation/ip-reservation.jpg" class="d-block w-100"
+                                            alt="IP-osoitteiden varaus"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="img/projects/ipreservation/ip_reservation_backend-1.jpg" target="_blank">
+                                        <img src="img/projects/ipreservation/ip_reservation_backend-1.jpg"
+                                            class="d-block w-100" alt="IP-osoitteiden varaus koodi 1"></a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="img/projects/ipreservation/ip_reservation_backend-2.png" target="_blank">
+                                        <img src="img/projects/ipreservation/ip_reservation_backend-2.png"
+                                            class="d-block w-100" alt="IP-osoitteiden varaus koodi 2"></a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselIpSovellusIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselIpSovellusIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <footer class="footer bg-body">
+            <div class="container text-center">
+                <ul class="list-unstyled">
+                    <li>Copyright &copy; 2024</li>
+                    <li>Jani Kaartinen</li>
+                </ul>
+            </div>
+
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
