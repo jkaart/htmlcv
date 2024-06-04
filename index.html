@@ -1,307 +1,342 @@
 <!DOCTYPE html>
-<html lang="FI">
+<html lang="fi" data-bs-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Mono">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>CV - Jani Kaartinen</title>
 </head>
 
 <body>
-    <nav>
-        <h1>CV - Jani Kaartinen</h1>
-        <ul>
-            <li><a href="#esittely-otsikko">Esittely</a></li>
-            <li><a href="#tyokokemus-otsikko">Työhistoria</a></li>
-            <li><a href="#koulutus-otsikko">Koulutus</a></li>
-            <li><a href="#ttaidot-otsikko">IT-taidot</a></li>
-            <li><a href="#kielitaito-otsikko">Kielitaito</a></li>
-            <li><a href="#harrastukset-otsikko">Harrastukset</a></li>
-            <li><a href="#projektit-otsikko">Projektit</a></li>
-        </ul>
-    </nav>
-    <!--Esittely section-->
-    <section>
-        <h2 id="esittely-otsikko" class="valiotsikko">Esittely</h2>
-        <div class="center">
-            <div id="esittely">
-                <div id="esittely-teksti">
-                    <p>
-                        Minä olen Jani Kaartinen, elektroniikka- ja tietokoneasentaja Mikkelistä. Tällä hetkellä olen
-                        opiskelemassa ohelmistokehittäjäksi Esedussa. Kokemusta on
-                        elektroniikkalaitteiden ja tietokoneiden huollosta sekä korjaamisesta harrastuksen ja
-                        kuntouttavantyötoiminnan kautta. Harrastan elektroniikkaa, tietokoneita ja lenkkeilen
-                        säännöllisesti.
-                        Kokemusta on myöskin 3D-tulostuksesta ja sen myötä tutuksi on tullut myös Autodesk Fusion 360.
-                        Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia. Olen opetellut myös ohjelmointia
-                        Python,
-                        Javascript (Node.js: Express ja Node.js: React) kielillä Digimuuntamo koulutuksessa ja
-                        harrastuksena
-                        Arduinolla (C/C++) joitain projekteja. Digimuuntamossa tuli myös etätyöskentely tutuksi.
-                    </p>
+
+    <div class="container-fluid">
+        <div class="row p-2">
+            <div class="col-sm-4">
+                <div class="border rounded">
+                    <img class="mx-auto d-block mb-2 border mt-2" src="img/Oma_kuva_small.png" alt="Oma kuva" />
+                    <hr />
+                    <ul>
+                        <li>Nimi: Jani Kaartinen</li>
+                        <li>Ikä: 38 vuotta</li>
+                        <li>Paikkakunta: Mikkeli, Etelä-Savo</li>
+                        <li>Sähköposti: jkaart@gmail.com</li>
+                        <li>Kotisivu: </li>
+                    </ul>
                 </div>
-
-                <div id="esittely-kuva">
-                    <img src="img/Oma_kuva.png" />
-
-                </div>
-
             </div>
-        </div>
-    </section>
-    <!--Työhistoria section-->
-    <section>
-        <h2 id="tyokokemus-otsikko" class="valiotsikko">Työhistoria</h2>
-        <div class="center">
-            <div class="sisalto1">
-                <ul>
-                    <li>Mikkelin Toimintakeskus ry/Ekotori</li>
-                    <li>Muut tietotekniset työntekijät</li>
-                    <li>26.10.2015 - 07.04.2019</li>
-                    <li>Sähkömoottori- ja pienelektroniikkahuollon työtehtävät</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Nuorten Työpajat Mikkeli/Mikropaja</li>
-                    <li>Muut tietotekniset työntekijät</li>
-                    <li>13.08.2012 - 18.10.2015</li>
-                    <li>Tietokonehuolto</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Mikkelin Toimintakeskus ry/Ekotori</li>
-                    <li>Muut tietotekniset työntekijät</li>
-                    <li>04.07.2011 - 03.08.2011</li>
-                    <li>Elektroniikka- ja tietokonehuolto</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Mikkelin seudun maahanmuuttajatyön tuki Mimosa ry</li>
-                    <li>Toimistotyöntekijä</li>
-                    <li>13.04.2011 - 31.05.2011</li>
-                    <li>Avustavat toimistotyöt</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Mikkelin kaupunki/Mikropaja</li>
-                    <li>Muut tietotekniset työntekijät</li>
-                    <li>17.08.2009 - 20.12.2009</li>
-                    <li>Tietokonehuolto</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Pohjois-Karjalan Prikaati</li>
-                    <li>Työharjoittelu</li>
-                    <li>10.04.2007 - 31.05.2007</li>
-                    <li>Elektroniikkahuolto</li>
-                </ul>
-                <hr class="jako-viiva">
-            </div>
-        </div>
-    </section>
-    <!--Koulutus section-->
-    <section>
-        <h2 id="koulutus-otsikko" class="valiotsikko">Koulutus</h2>
-        <div class="center">
-            <div class="sisalto1">
-                <ul>
-                    <li>Etelä-Savon ammattiopisto/Esedu</li>
-                    <li>Ohjelmistokehittäjä</li>
-                    <li>Nykyinen</li>
-                    <li>Tieto- ja viestintätekniikan perustutkinto</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>KasvuEsedu Oy</li>
-                    <li>Digimuuntamo #3.0</li>
-                    <li>2023</li>
-                    <li>Työvoimakoulutus</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>KasvuEsedu Oy</li>
-                    <li>Digimuuntamo #2.0</li>
-                    <li>2023</li>
-                    <li>Työvoimakoulutus</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>KasvuEsedu Oy</li>
-                    <li>Digimuuntamo #1.0</li>
-                    <li>2022</li>
-                    <li>Työvoimakoulutus</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Etelä-Savon ammattiopisto/Esedu</li>
-                    <li>Tietojärjestelmäasiantuntija</li>
-                    <li>2009</li>
-                    <li>Tietokoneasentajan ammattitutkinto</li>
-                </ul>
-                <hr class="jako-viiva">
-                <ul>
-                    <li>Hengitysliitto Heli ry/Kaprakan ammatillinen koulutuskeskus</li>
-                    <li>Elektroniikka-asentaja</li>
-                    <li>2007</li>
-                    <li>Sähköalan perustutkinto</li>
-                </ul>
-                <hr class="jako-viiva">
-            </div>
-        </div>
-    </section>
-    <!--Tietotekniset taidot section-->
-    <section>
-        <h2 id="ttaidot-otsikko" class="valiotsikko">IT-taidot</h2>
-        <div class="center">
-            <div class="sisalto1 tahdet">
-                <ul>
-                    <li>Ohjelmistot</li>
-                    <li>Autodesk Fusion 360 <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Microsoft Office <img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                    <li>LibreOffice <img src="img/1of5stars.png" alt="1 tähteä viidestä"></li>
-                    <li>KiCAD EDA <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Visual Studio Code <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Linux Terminal <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Git (ja GitHub) <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                </ul>
-                <ul>
-                    <li>Käyttöjärjestelmät</li>
-                    <li>Microsoft Windows 10 Pro <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Linux Ubuntu MATE <img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                </ul>
-                <ul>
-                    <li>Ohjelmointi/koodaus</li>
-                    <li>HTML/CSS </li><img src="img/4of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>Node.js: Express </li><img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                    <li>Node.js: Rect </li><img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                    <li>Swagger </li><img src="img/3of5stars.png" alt="3 tähteä viidestä"></li>
-                    <li>MongoDB </li><img src="img/3of5stars.png" alt="4 tähteä viidestä"></li>
-                    <li>InfluxDB </li><img src="img/1of5stars.png" alt="1 tähteä viidestä"></li>
-                    <li>Arduino (C/C++)</li><img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                    <li>Python </li><img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                    <li>WordPress (Elementor) </li><img src="img/2of5stars.png" alt="2 tähteä viidestä"></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Kielitaito section-->
-    <section>
-        <h2 id="kielitaito-otsikko" class="valiotsikko">Kielitaito</h2>
-        <div class="center">
-            <div class="sisalto2 tahdet">
-                <ul>
-                    <li>Suomi - Äidinkieli <img src="img/5of5stars.png" alt="5 tähteä viidestä"></li>
-                    <li>Englanti</li>
-                    <li>
-                        <ul>
-                            <li>Suullinen <img src="img/1of5stars.png" alt="1 tähteä viidestä"></li>
-                            <li>Kirjallinen <img src="img/3of5stars.png" alt="3 tähteä viidestä"></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Harrastukset section-->
-    <section>
-        <h2 id="harrastukset-otsikko" class="valiotsikko">Harrastukset</h2>
-        <div class="center">
-            <div class="sisalto2">
-                <ul>
-                    <li>Tietotekniikka</li>
-                    <li>Konsoli- ja tietokonepelit</li>
-                    <li>Elektroniikka</li>
-                    <li>Lenkkeily</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- Projektit section-->
-    <section>
-        <h2 id="projektit-otsikko" class="valiotsikko">Projektit</h2>
-        <div class="center">
-            <div class="sisalto2">
-                <div class="projekti" id="projektit">
-                    <div>
-                        <h3>IP-osoitteiden varaus sovellus</h3>
-                        <p>Koulun harjoitustyönä toteutettu IP-osoitteiden varaus Node.js -sovellus. Sovelluksen
-                            frontend on
-                            toteutettu Node.js: React:lla ja backend Node.js: Express:lla. Itse olin backendiä
-                            tekemässä.
-                        </p>
-                        <ul>
-                            <li><a href="https://github.com/jkaart/ip-reservationapp-backend">GitHub</a> -backend</li>
-                            <li><a href="https://github.com/jkaart/ip-reservationapp-frontend">GitHub</a> -frontend</li>
-                        </ul>
-                        <div>
-                            <ul class="projektikuvat">
-                                <li><a href="img/projects/ipreservation/ip-reservation.jpg" target="_blank"><img
-                                            src="img/projects/ipreservation/ip-reservation.jpg"></a></li>
-                                <li><a href="img/projects/ipreservation/ip_reservation_backend-1.jpg"
-                                        target="_blank"><img
-                                            src="img/projects/ipreservation/ip_reservation_backend-1.jpg"></a></li>
-                                <li><a href="img/projects/ipreservation/ip_reservation_backend-2.png"
-                                        target="_blank"><img
-                                            src="img/projects/ipreservation/ip_reservation_backend-2.png"></a></li>
-                            </ul>
+            <div class="col-sm-8">
+                <div class="accordion" id="accordionSisalto">
+                    <!-- Esittely -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Esittely
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <p>Minä olen Jani Kaartinen, elektroniikka- ja tietokoneasentaja Mikkelistä. Tällä
+                                    hetkellä
+                                    olen
+                                    opiskelemassa ohelmistokehittäjäksi Esedussa. Kokemusta on
+                                    elektroniikkalaitteiden ja tietokoneiden huollosta sekä korjaamisesta harrastuksen
+                                    ja
+                                    kuntouttavantyötoiminnan kautta. Harrastan elektroniikkaa, tietokoneita ja
+                                    lenkkeilen
+                                    säännöllisesti.
+                                    Kokemusta on myöskin 3D-tulostuksesta ja sen myötä tutuksi on tullut myös Autodesk
+                                    Fusion
+                                    360.
+                                    Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia. Olen opetellut myös
+                                    ohjelmointia
+                                    Python,
+                                    Javascript (Node.js: Express ja Node.js: React) kielillä Digimuuntamo koulutuksessa
+                                    ja
+                                    harrastuksena
+                                    Arduinolla (C/C++) joitain projekteja. Digimuuntamossa tuli myös etätyöskentely
+                                    tutuksi.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <hr class="jako-viiva">
-                    <div>
-                        <h3>Fat Walrus Racing</h3>
-                        <p>Koulun harjoitustyönä toteutettu racing henkinen web sivusto. Sivusto on toteutettu HTML:lla
-                            ja Bootstrapilla.
-                        </p>
-                        <ul>
-                            <li><a href="http://racing.turbomursu.com/index.html">Turbomursu</a> -kotisivut</li>
-                            <li><a href="https://github.com/jkaart/turboMursuRacing">GitHub</a></li>
-                        </ul>
-                        <div>
-                            <ul class="projektikuvat">
-                                <li><a href="img/projects/turbomursu/turbomursu_sivu.jpg" target="_blank"><img
-                                            src="img/projects/turbomursu/turbomursu_sivu.jpg"></a></li>
-                                <li><a href="img/projects/turbomursu/turbomursu_koodi-1.jpg" target="_blank"><img
-                                            src="img/projects/turbomursu/turbomursu_koodi-1.jpg"></a></li>
-                                <li><a href="img/projects/turbomursu/turbomursu_koodi-2.jpg" target="_blank"><img
-                                            src="img/projects/turbomursu/turbomursu_koodi-2.jpg"></a></li>
-                            </ul>
+                    <!-- Työhistoria -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Työhistora
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Mikkelin Toimintakeskus ry/Ekotori</li>
+                                    <li class="ps-3">Muut tietotekniset työntekijät</li>
+                                    <li class="ps-3">26.10.2015 - 07.04.2019</li>
+                                    <li class="ps-3">Sähkömoottori- ja pienelektroniikkahuollon työtehtävät</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Nuorten Työpajat Mikkeli/Mikropaja</li>
+                                    <li class="ps-3">Muut tietotekniset työntekijät</li>
+                                    <li class="ps-3">13.08.2012 - 18.10.2015</li>
+                                    <li class="ps-3">Tietokonehuolto</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Mikkelin Toimintakeskus ry/Ekotori</li>
+                                    <li class="ps-3">Muut tietotekniset työntekijät</li>
+                                    <li class="ps-3">04.07.2011 - 03.08.2011</li>
+                                    <li class="ps-3">Elektroniikka- ja tietokonehuolto</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Mikkelin seudun maahanmuuttajatyön tuki Mimosa ry</li>
+                                    <li class="ps-3">Toimistotyöntekijä</li>
+                                    <li class="ps-3">13.04.2011 - 31.05.2011</li>
+                                    <li class="ps-3">Avustavat toimistotyöt</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Mikkelin kaupunki/Mikropaja</li>
+                                    <li class="ps-3">Muut tietotekniset työntekijät</li>
+                                    <li class="ps-3">17.08.2009 - 20.12.2009</li>
+                                    <li class="ps-3">Tietokonehuolto</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Pohjois-Karjalan Prikaati</li>
+                                    <li class="ps-3">Työharjoittelu</li>
+                                    <li class="ps-3">10.04.2007 - 31.05.2007</li>
+                                    <li class="ps-3">Elektroniikkahuolto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Koulutus -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Koulutus
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Etelä-Savon ammattiopisto/Esedu</li>
+                                    <li class="ps-3">Ohjelmistokehittäjä</li>
+                                    <li class="ps-3">Nykyinen</li>
+                                    <li class="ps-3">Tieto- ja viestintätekniikan perustutkinto</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">KasvuEsedu Oy</li>
+                                    <li class="ps-3">Digimuuntamo #3.0</li>
+                                    <li class="ps-3">2023</li>
+                                    <li class="ps-3">Työvoimakoulutus</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">KasvuEsedu Oy</li>
+                                    <li class="ps-3">Digimuuntamo #2.0</li>
+                                    <li class="ps-3">2023</li>
+                                    <li class="ps-3">Työvoimakoulutus</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">KasvuEsedu Oy</li>
+                                    <li class="ps-3">Digimuuntamo #1.0</li>
+                                    <li class="ps-3">2022</li>
+                                    <li class="ps-3">Työvoimakoulutus</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Etelä-Savon ammattiopisto/Esedu</li>
+                                    <li class="ps-3">Tietojärjestelmäasiantuntija</li>
+                                    <li class="ps-3">2009</li>
+                                    <li class="ps-3">Tietokoneasentajan ammattitutkinto</li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold">Hengitysliitto Heli ry/Kaprakan ammatillinen koulutuskeskus</li>
+                                    <li class="ps-3">Elektroniikka-asentaja</li>
+                                    <li class="ps-3">2007</li>
+                                    <li class="ps-3">Sähköalan perustutkinto</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IT-taidot -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                IT-taidot
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <table>
+                                    <tr>
+                                        <td class="fw-bold">Ohjelmistot</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Autodesk Fusion 360</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Microsoft Office</td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">LibreOffice</td>
+                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">KiCAD EDA</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Visual Studio Code</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Linux Terminal</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Git (ja GitHub)</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">Ohjelmistot</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Linux Ubuntu MATE</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Microsoft Windows 10 Pro</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fw-bold">Ohjelmointi/koodaus</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">HTML/CSS</td>
+                                        <td><img src="img/4of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Node.js: Express</td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Node.js: Rect</td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Swagger</td>
+                                        <td><img src="img/3of5stars.png" alt="3 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">MongoDB</td>
+                                        <td><img src="img/3of5stars.png" alt="4 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">InfluxDB </td>
+                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Arduino (C/C++)</td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">Python </td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-sm-3">WordPress (Elementor) </td>
+                                        <td><img src="img/2of5stars.png" alt="2 tähteä viidestä" /></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kielitaito -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Kielitaito
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <table>
+                                    <tr>
+                                        <td>Suomi</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4">Äidinkieli</td>
+                                        <td><img src="img/5of5stars.png" alt="5 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Englanti</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4">Suullinen</td>
+                                        <td><img src="img/1of5stars.png" alt="1 tähteä viidestä" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="ps-4">Kirjallinen</td>
+                                        <td><img src="img/3of5stars.png" alt="3 tähteä viidestä" /></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Harrastukset -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Harrastukset
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled">
+                                    <li>Tietotekniikka</li>
+                                    <li>Konsoli- ja tietokonepelit</li>
+                                    <li>Elektroniikka</li>
+                                    <li>Lenkkeily</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Projektit
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionSisalto">
+                            <div class="accordion-body">
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <footer>
-        <div id="yhteystiedot">
-            <ul>
-                <li><a href="http://jkaart.xyz"><img src="img/home.png" alt="Kotisivu"></a></li>
-                <li><a href="mailto:jkaart@gmail.com"><img src="img/email.png" alt="Sähköposti"></a></li>
-            </ul>
-        </div>
-        <div id="some-linkit">
-            <ul>
-                <li><a href="https://github.com/jkaart"><img src="img/GitHub.png" alt="https://github.com/jkaart"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/jkaart/"><img src="img/linkedin_logo.png"
-                            alt="https://www.linkedin.com/in/jkaart/"></a></li>
-                <li><a href="https://steamcommunity.com/id/jkaart/"><img src="img/steam_logo.png"
-                            alt="https://steamcommunity.com/id/jkaart/"></a></li>
-                <li><a href="https://discordapp.com/users/534873936878501919"><img src="img/Discord_Logo.png"
-                            alt="https://discordapp.com/users/534873936878501919"></a></li>
-                <li><a href="https://twitter.com/jkaart1"><img src="img/twitter.png"
-                            alt="https://twitter.com/jkaart1"></a></li>
-            </ul>
-        </div>
-        Copyright &copy; Jani Kaartinen 2024
-        <p>Background photo by <a href="https://unsplash.com/@kirp">Andrew Kliatskyi</a> on <a
-                href="https://unsplash.com/">Unsplash</a></p>
-        <p>TWITTER, TWEET, RETWEET and the Twitter Bird logo are trademarks of Twitter Inc. or its affiliates.</p>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
