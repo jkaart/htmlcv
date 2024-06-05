@@ -27,13 +27,19 @@
                 </li>
             </ul>
         </div>
+        <div class="position-relative">
+            <div class="position-absolute bottom-0 start-50 translate-middle-x">
+                <a href="#sisalto"><img class="nuoli mb-2" src="img/nuoli.png"></a>
+            </div>
+        </div>
     </div>
+
     <div class="container-fluid vh-100">
         <div id="sisalto" class="row pb-2 pt-2">
             <div class="col-md-4">
                 <div class="border rounded bg-light bg-opacity-10">
-                    <img class="mx-auto d-block mb-2 border mt-2 img-thumbnail border rounded"
-                        src="img/Oma_kuva_small.png" alt="Oma kuva">
+                    <img class="mx-auto d-block mb-2 border mt-2 img-thumbnail border rounded" src="img/oma_kuva.jpg"
+                        alt="Oma kuva">
                     <hr>
                     <ul class="list-unstyled ms-2 me-2">
                         <li>Nimi: Jani Kaartinen</li>
@@ -60,6 +66,7 @@
             </div>
             <div class="col-md-8 mt-2 mt-md-0">
                 <div class="accordion" id="accordionSisalto">
+
                     <!-- Esittely -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -74,22 +81,27 @@
                                 <p>Minä olen Jani Kaartinen, elektroniikka- ja tietokoneasentaja Mikkelistä. Tällä
                                     hetkellä olen opiskelemassa ohelmistokehittäjäksi Esedussa. Kokemusta on
                                     elektroniikkalaitteiden ja tietokoneiden huollosta sekä korjaamisesta
-                                    harrastuksen ja kuntouttavantyötoiminnan kautta. Harrastan elektroniikkaa, tietokoneita ja
+                                    harrastuksen ja kuntouttavantyötoiminnan kautta. Harrastan elektroniikkaa,
+                                    tietokoneita ja
                                     lenkkeilen säännöllisesti.
                                     Kokemusta on myöskin 3D-tulostuksesta ja sen myötä tutuksi on tullut myös
-                                    Autodesk Fusion 360. Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia. Olen opetellut
-                                    myös ohjelmointia Python, Javascript (Node.js: Express ja Node.js: React) kielillä Digimuuntamo
-                                    koulutuksessa ja harrastuksena Arduinolla (C/C++) joitain projekteja. Digimuuntamossa tuli myös etätyöskentely tutuksi.
+                                    Autodesk Fusion 360. Käyttöjärjestelmistä käytän mielummin Linuxia kuin Windowsia.
+                                    Olen opetellut
+                                    myös ohjelmointia Python, Javascript (Node.js: Express ja Node.js: React) kielillä
+                                    Digimuuntamo
+                                    koulutuksessa ja harrastuksena Arduinolla (C/C++) joitain projekteja.
+                                    Digimuuntamossa tuli myös etätyöskentely tutuksi.
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <!-- Työhistoria -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Työhistora
+                                Työhistoria
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -134,6 +146,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Koulutus -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
@@ -185,6 +198,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- IT-taidot -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
@@ -393,6 +407,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Kielitaito -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
@@ -447,6 +462,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Harrastukset -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
@@ -471,6 +487,7 @@
             </div>
         </div>
         <hr class="mt-md-2 mb-md-2 d-none d-md-block">
+
         <!-- Ohjelmointi projektit/portfolio-->
         <div class="bg-light bg-opacity-10 pb-3 ps-2 pe-2 border rounded">
             <h2 class="pb-5 pt-1">Ohjelmointi projektit/portfolio</h2>
@@ -489,8 +506,8 @@
                     <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">Python</a>
                     <ul class="dropdown-menu">
-                        <li><button class="dropdown-item active" id="hirsipuu-tab" data-bs-toggle="tab" data-bs-target="#hirsipuu"
-                                type="button" role="tab" aria-controls="hirsipuu"
+                        <li><button class="dropdown-item active" id="hirsipuu-tab" data-bs-toggle="tab"
+                                data-bs-target="#hirsipuu" type="button" role="tab" aria-controls="hirsipuu"
                                 aria-selected="false">Hirsipuu-peli</button>
                         </li>
                     </ul>
@@ -506,11 +523,12 @@
                     </ul>
                 </li>
             </ul>
+
             <div class="tab-content mb-4 mt-2" id="projektitTabContent">
                 <!-- HTML-CSS -->
                 <div class="tab-pane fade" id="turbomursu" role="tabpanel" aria-labelledby="turbomursu-tab">
                     <h3>Fat Walrus Racing</h3>
-                    <p>Koulun harjoitustyönä toteutettu racing henkinen web sivusto. Sivusto on toteutettu HTML:ll ja
+                    <p>Koulun harjoitustyönä toteutettu racing henkinen web sivusto. Sivusto on toteutettu HTML:llä ja
                         Bootstrapilla.
                     </p>
                     <ul class="list-unstyled">
@@ -559,6 +577,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- Python -->
                 <div class="tab-pane fade show active" id="hirsipuu" role="tabpanel" aria-labelledby="hirsipuu-tab">
                     <h3>Hirsipuupeli</h3>
@@ -641,8 +660,8 @@
                             </button>
                         </div>
                     </div>
-
                 </div>
+
                 <!-- Node.JS -->
                 <div class="tab-pane fade" id="ipSovellus" role="tabpanel" aria-labelledby="ipSovellus-tab">
                     <h3>IP-osoitteiden varaus sovellus</h3>
@@ -699,6 +718,7 @@
                 </div>
             </div>
         </div>
+
         <footer class="footer bg-body">
             <div class="container text-center">
                 <ul class="list-unstyled">
