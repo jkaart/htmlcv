@@ -1,253 +1,34 @@
-/*html*/
-html {
-    scroll-padding-top: 105px;
-}
-
-/*Body*/
-body {
+#alkuruutu {
     background-image: url("img/background.jpg");
     background-size: cover;
-    padding-top: 100px;
-    margin-bottom: 120px;
 }
 
-/*Navigointi palkki*/
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9999;
-    justify-content: space-evenly;
-    background-color: rgb(130, 141, 133);
+.carousel-indicators {
+    bottom: -2.4375rem;
 }
 
-nav h1 {
-    text-align: center;
-    color: rgb(0, 0, 0);
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-}
-
-nav li a {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
+.some a {
     text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: rgb(255, 255, 255);
+.some i {
+    font-size: 1.5rem;
 }
 
-nav ul li {
-    display: inline;
-    font-size: x-large;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-/*Otsikoiden tyylit*/
-.valiotsikko {
-    margin-top: 20px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    padding: 15px;
-    text-align: center;
-    background-color: rgb(240, 248, 255, 0.6);
-    overflow: hidden;
-}
-
-/*Sisällön keskitys*/
-.center {
-    margin-top: 20px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-top: 30px;
-    padding-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgb(240, 255, 255, 0.6);
-}
-
-/*Väliotsikon ja keskityksen varjo ja reunat*/
-.valiotsikko,
-.center {
-    border: 2px solid;
-    border-radius: 5px;
-    box-shadow: 10px 10px rgb(86, 186, 156, 0.6);
-}
-
-/*Esittelyn tyylit*/
-#esittely {
-    display: flex;
-}
-
-#esittely-teksti,
-#esittely-kuva {
-    display: inline-block;
-}
-
-#esittely-teksti {
-    margin-left: 100px;
-    margin-right: 70px;
-}
-
-#esittely-kuva img {
-    border-radius: 15px;
-    width: 160px;
-    height: auto;
-}
-
-/*Sisältö*/
-hr.jako-viiva {
-    border-top: 2px solid;
-    margin: 0px 10% 20px 10%;
-    position: relative;
-    color: rgb(86, 186, 156);
-}
-
-.sisalto1 li:nth-child(1) {
-    list-style: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.sisalto1 li:nth-child(n+2) {
-    font-size: 1em;
-    margin-left: 50px;
-}
-
-.tahdet img {
-    float: right;
-    position: relative;
-    width: auto;
-    height: 20px;
-    margin-right: 250px;
-}
-
-.sisalto2 li {
-    list-style: none;
-}
-
-.sisalto1 li:nth-child(n+2),
-.sisalto2 ul ul li {
-    list-style-type: disc;
-    margin-left: 40px;
-}
-
-.sisalto2 ul {
-    padding: 0;
-    margin-left: 0;
-}
-
-.sisalto2 ul li {
-    padding: 0;
+.tahdet i {
+    font-size: 1.2rem;
 
 }
 
-.sisalto2 {
-    padding-left: 100px;
+.tahdet {
+    padding-left: 0.5rem;
+    white-space: nowrap;
 }
 
-.sisalto1 {
-    padding-left: 60px;
+.nuoli {
+    opacity: 0.7;
 }
 
-/*Section*/
-section {
-    margin-bottom: 100px;
-    font-family: "DM Mono";
-}
-
-/*Projektit*/
-#projektit img {
-    max-width: 30%;
-    height: auto;
-}
-
-#projektit ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-.projektikuvat li {
-    display: inline;
-}
-
-/*Footer*/
-footer {
-    text-align: center;
-
-    font-size: 0.8em;
-    background-color: rgb(130, 141, 133);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 9999;
-    justify-content: space-evenly;
-}
-
-footer a:link {
-    text-decoration: none;
-}
-
-footer p {
-    font-family: "Indie Flower";
-    text-align: center;
-    font-size: 0.8em;
-    margin-bottom: auto;
-    margin-top: auto;
-}
-
-footer #yhteystiedot {
-    float: left;
-    text-align: left;
-    font-size: 0.6em;
-}
-
-footer #yhteystiedot ul li,
-#some-linkit ul li {
-    display: inline;
-    list-style-type: none;
-}
-
-footer #yhteystiedot img {
-    border: 2px solid;
-    border-color: black;
-    border-radius: 5px;
-}
-
-footer #some-linkit ul {
-    margin-right: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-footer #some-linkit {
-    float: right;
-    text-align: right;
-    font-size: 0.6em;
-}
-
-footer #some-linkit img {
-    width: 32px;
-    padding: 4px;
+.nuoli:hover {
+    opacity: 1.0;
 }
