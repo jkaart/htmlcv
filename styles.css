@@ -22,6 +22,7 @@
 
 .tahdet {
     padding-left: 0.5rem;
+    white-space: nowrap;
 }
 
 .nuoli {
