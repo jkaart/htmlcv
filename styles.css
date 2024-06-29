@@ -2,10 +2,6 @@ section {
     scroll-snap-align: start;
 }
 
-footer {
-    background-color: red;
-}
-
 #alkuruutu {
     background-image: url("img/background.jpg");
     background-size: cover;
