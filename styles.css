@@ -1,6 +1,24 @@
+section {
+    scroll-snap-align: start;
+}
+
+footer {
+    background-color: red;
+}
+
 #alkuruutu {
     background-image: url("img/background.jpg");
     background-size: cover;
+}
+
+.vh-85 {
+    height: 85vh;
+}
+
+.sisalto {
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .carousel-indicators {
@@ -25,10 +43,14 @@
     white-space: nowrap;
 }
 
-.nuoli {
-    opacity: 0.7;
+@media only screen and (min-width: 768px) {
+    .vw-45 {
+        width: 45vw;
+    }
 }
 
-.nuoli:hover {
-    opacity: 1.0;
+@media only screen and (max-width: 360px) {
+    .accordion li, .accordion table {
+        font-size: 0.9rem;
+    }
 }
